@@ -9,6 +9,9 @@ About project:
 Simple calculator project to apply what I have learnt over the pass month of learning.
 
 
+
+
+
  | | | DURATION OF SIMPLE CALCULATOR PROJECT | | |
  
 START:      Sunday (March 5 2023)
