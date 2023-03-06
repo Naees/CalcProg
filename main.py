@@ -124,6 +124,7 @@ class Calculator:
         self.ttlExpression += self.currentExpression
         self.currentExpression = ""
         self.update_ttl_Lbl()
+        self.update_current_Lbl()
     
     # Number button frame creation
     def create_buttons_frame(self):
