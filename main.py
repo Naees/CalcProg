@@ -182,7 +182,14 @@ class Calculator:
             self.currentExpression = str(eval(self.ttlExpression))
             self.ttlExpression = ""
         except Exception as e:
-            self.currentExpression = "Invalid"
+            if str("(") in self.ttlExpression:
+                self.ttlExpression += str(")")
+                self.clearEntry()
+                self.update_ttl_Lbl()
+                self.equals()
+            else:
+                
+                self.currentExpression = "Invalid"
         finally:
             self.update_current_Lbl()
     
@@ -192,11 +199,18 @@ class Calculator:
         btn.grid(row=3, column=5, rowspan=2, stick=NSEW)
     
     # Brackets button creation
+    def openBracket(self):
+        self.currentExpression += str("(")
+        self.update_current_Lbl()
     def openBracketBtn(self):
-        btn = Button(self.btnFrame, text="(", bg=btnBg, fg="#dce3e2", font=smallFont, borderwidth=0, highlightthickness=0)
-        btn.grid(row=4, column=3, stick=NSEW)    
+        btn = Button(self.btnFrame, text="(", bg=btnBg, fg="#dce3e2", font=smallFont, borderwidth=0, highlightthickness=0, command=self.openBracket)
+        btn.grid(row=4, column=3, stick=NSEW)   
+        
+    def closeBracket(self):
+        self.currentExpression += str(")")
+        self.update_current_Lbl() 
     def closeBracketBtn(self):
-        btn = Button(self.btnFrame, text=")", bg=btnBg, fg="white", font=smallFont, borderwidth=0, highlightthickness=0)
+        btn = Button(self.btnFrame, text=")", bg=btnBg, fg="white", font=smallFont, borderwidth=0, highlightthickness=0, command=self.closeBracket)
         btn.grid(row=4, column=4,stick=NSEW)
 
     # Special Functions button creation
