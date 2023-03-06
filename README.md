@@ -1,6 +1,6 @@
 # CalcProg
 
-|||ABOUT PROJECT|||
+| | | ABOUT PROJECT | | |
 Author: 
 Naees
 
