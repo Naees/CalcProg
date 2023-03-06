@@ -1,7 +1,7 @@
 # CalcProg
 
 ///ABOUT PROJECT///
-Author: 
+\nAuthor: 
 Naees
 
 About project:
