@@ -51,7 +51,7 @@ laptop and desktop excluding the functions of the scientific and programming cal
 2. How do I install and run the calculator?
 
 You can install it from the repository or clone it.
-You must run it through the terminal.
+You must run it through the terminal or the .EXE file.
 
 3. What are the keyboard shortcuts for using the calculator?
 
