@@ -182,6 +182,7 @@ class Calculator:
             self.currentExpression = str(eval(self.ttlExpression))
             self.ttlExpression = ""
         except Exception as e:
+            # Exception handling for the bracket
             if str("(") in self.ttlExpression:
                 self.ttlExpression += str(")")
                 self.clearEntry()
