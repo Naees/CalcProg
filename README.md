@@ -38,7 +38,8 @@ March 7 - Tuesday
 
 1. shortcuts  
 2. exception handling
-3. eXE. file conversion
+3. EXE. file conversion
+4. auto closing bracket closing exception handling
 
 | | | Learning resources | | |
 
