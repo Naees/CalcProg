@@ -11,7 +11,9 @@ Simple calculator project to apply what I have learnt over the pass month of lea
  | | | DURATION OF SIMPLE CALCULATOR PROJECT | | |
  
 START:      Sunday (March 5 2023)
+
 END:        Tuesday (March 7 2023)
+
 Duration:   Three days
 
 | | | TIMELINE | | |
