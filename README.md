@@ -8,16 +8,11 @@ Naees
 About project:
 Simple calculator project to apply what I have learnt over the pass month of learning.
 
-
-
-
-
  | | | DURATION OF SIMPLE CALCULATOR PROJECT | | |
  
 START:      Sunday (March 5 2023)
 END:        Tuesday (March 7 2023)
 Duration:   Three days
-
 
 | | | TIMELINE | | |
 
@@ -43,7 +38,6 @@ March 6 - Monday
 2. StackOverflow
 3. ChatGPT
 4. Documentation
-
 
 | | |Additional Notes & FAQs | | |
 
