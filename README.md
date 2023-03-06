@@ -20,19 +20,25 @@ Duration:   Three days
 
 March 5 - Sunday
 
-1.  
-2.  
-3.  
-4.  
-5.  
+1. create display label
+2. create frame
+3. create all buttons (numbers & operators) 
 
 March 6 - Monday
 
-1.  
-2.  
-3.  
-4.  
-5.  
+1. allow input
+2. additions
+3. subtract
+4. divide
+5. multiple
+6. square
+7. root
+
+March 7 - Tuesday
+
+1. shortcuts  
+2. exception handling
+3. eXE. file conversion
 
 | | | Learning resources | | |
 
@@ -51,11 +57,16 @@ laptop and desktop excluding the functions of the scientific and programming cal
 2. How do I install and run the calculator?
 
 You can install it from the repository or clone it.
-You must run it through the terminal.
+You must run it through the terminal or the exe file
 
 3. What are the keyboard shortcuts for using the calculator?
 
-There are currently no shortcuts but will be added if I have the time to.
+    a. Return (=)
+
+    b. Number inputs (numberpad & numberkeys)
+
+    c. Operators (numberkeys)
+
 
 4. How do I use the memory functions?
 
@@ -95,3 +106,16 @@ I thought that it was moderate to tough in level but would have been easier to t
 
 
 More details will be updated according when more questions have been asked
+
+
+Functions:
+allow input
+additions
+subtract
+divide
+multiple
+square
+root
+clear (not to be confused with the Clear Entry CE)
+Edits to operator symbol (e.g. * is replaced by x)
+limiting length due to overrun of values
